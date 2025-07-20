@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cat.image {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="playMeow()">
+        <img src="grumpy cat.jfif" alt="A cute cat" class="cat image">
+    </button>
+    <script>
+        function playMeow() {
+            const audio = new Audio('tom.mp3');
+            audio.play();
+        }
+    </script>
+</body>
+</html>
